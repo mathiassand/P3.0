@@ -1,3 +1,8 @@
-﻿  Table.cpp
-  Table.vcxproj -> C:\Users\Lars Nielsen\Documents\Visual Studio 2017\Projects\Table\x64\Debug\Table.exe
-  Table.vcxproj -> C:\Users\Lars Nielsen\Documents\Visual Studio 2017\Projects\Table\x64\Debug\Table.pdb (Partial PDB)
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(387,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (Table.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  DevUI.cpp
+  Generating Code...
+  Compiling...
+  UI.cpp
+  Generating Code...
+  Table.vcxproj -> C:\Users\Lars Nielsen\Desktop\Gitclone\P3.0\Table\x64\Debug\Threader.exe
+  Table.vcxproj -> C:\Users\Lars Nielsen\Desktop\Gitclone\P3.0\Table\x64\Debug\Threader.pdb (Partial PDB)
