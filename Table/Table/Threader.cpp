@@ -3,21 +3,22 @@
 #include "stdafx.h"
 #include "opencv2\opencv.hpp"
 #include <iostream>
+#include "DevUI.cpp"
 
 using namespace std;
 using namespace cv;
 
-//Hello there please kill me
 
-int main(int argc, char** argv)
+
+int main()
 {
-	VideoCapture cap(0);
-	if (!cap.isOpened()) {
-		cout << "cam could not open" << endl;
-		return -1;
-	}
+
+	DevUI DevUI;
+	DevUI.DevWindow();
+
+	waitKey(0);
 
 	return 0;
 }
-//holy fuck it is woKRING
+
 
