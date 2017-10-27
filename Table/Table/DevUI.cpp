@@ -27,7 +27,6 @@ public:
 
 		void on_track(int, void *); {
 			bar1 + 1;
-
 		}
 
 		namedWindow("Dev UI", CV_WINDOW_AUTOSIZE);
@@ -36,10 +35,6 @@ public:
 		createTrackbar("value3", "Dev UI", &bar3, barMax, 0);
 		createTrackbar("value4", "Dev UI", &bar4, barMax, 0);
 		createTrackbar("value5", "Dev UI", &bar5, barMax, 0);
-
-
-
-
 	}
 
 };
