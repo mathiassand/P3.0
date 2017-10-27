@@ -1,6 +1,8 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(387,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (Table.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-  Threader.cpp
   DevUI.cpp
+c:\users\lars nielsen\desktop\gitclone\p3.0\table\table\devui.cpp(29): warning C4552: '+': operator has no effect; expected operator with side-effect
   Generating Code...
+  Skipping... (no relevant changes detected)
+  Threader.cpp
   Table.vcxproj -> C:\Users\Lars Nielsen\Desktop\Gitclone\P3.0\Table\x64\Debug\Threader.exe
   Table.vcxproj -> C:\Users\Lars Nielsen\Desktop\Gitclone\P3.0\Table\x64\Debug\Threader.pdb (Partial PDB)

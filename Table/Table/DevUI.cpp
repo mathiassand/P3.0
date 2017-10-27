@@ -7,6 +7,8 @@
 using namespace std;
 using namespace cv;
 
+
+
 class DevUI {
 
 public:
@@ -17,15 +19,23 @@ public:
 	int bar4 = 0;
 	int bar5 = 0;
 
+	int barMax = 255;
+
+
+
 	void DevWindow() {
 
+		void on_track(int, void *); {
+			bar1 + 1;
+
+		}
 
 		namedWindow("Dev UI", CV_WINDOW_AUTOSIZE);
-		createTrackbar("tresholde value", "Dev UI", &bar1, 255, 0);
-		createTrackbar("value2", "Dev UI", &bar2, 255, 0);
-		createTrackbar("value3", "Dev UI", &bar3, 255, 0);
-		createTrackbar("value4", "Dev UI", &bar4, 255, 0);
-		createTrackbar("value5", "Dev UI", &bar5, 255, 0);
+		createTrackbar("tresholde value", "Dev UI", &bar1, barMax, on_track);
+		createTrackbar("value2", "Dev UI", &bar2, barMax, 0);
+		createTrackbar("value3", "Dev UI", &bar3, barMax, 0);
+		createTrackbar("value4", "Dev UI", &bar4, barMax, 0);
+		createTrackbar("value5", "Dev UI", &bar5, barMax, 0);
 
 
 
